@@ -1,2 +1,1 @@
-# strides
-Strides conducted By CSE
+# strides-demo

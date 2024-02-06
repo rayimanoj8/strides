@@ -1,0 +1,85 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/as.jpeg');
+}
+
+/* Set a background color and font family for the entire page */
+body {
+    background-image: url('Images/as.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background image fixed while scrolling */
+    font-family: Arial, sans-serif;
+    margin: 40;
+    padding: 40px;
+   
+    color:white;
+}
+
+/* Style the header section */
+/* Style the header section */
+header {
+   
+    
+    color: transparent;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 95%;
+    
+}
+
+header img {
+    max-width: 250px;
+    height: right;
+    
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+#classic-collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh; /* Set the height to 100% of the viewport height */
+    text-align: center;
+    background-color: transparent;
+}
+.register-button {
+    background-color: #fff;
+    border: 1px solid #efecec;
+    padding: 0.25rem 0.5rem; /* Reduce the padding to make the button smaller */
+    font-size: 14px; /* Reduce the font size for a smaller button */
+    color: #85C1E9;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 0.5rem; /* Reduce the top margin for better alignment */
+    transition: all 0.2s;
+    width: auto; /* Remove any previously set width */
+    max-width: 105px; /* Set a maximum width for the button */
+    display: inline-block;
+}
+
+.register-button:hover {
+    background-color: #000080;
+}

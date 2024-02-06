@@ -1,0 +1,271 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Set a background color and font family for the entire page */
+body {
+    background-image: url('Images/web1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background image fixed while scrolling */
+    font-family: Arial, sans-serif;
+    margin: 40;
+    padding: 40px;
+   
+    color:white; /* Text color on the background image */
+}
+
+/* Style the header */
+header {
+   
+    
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 95%;
+    
+}
+
+header img {
+    max-width: 250px;
+    height: right;
+    
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Style the hero section */
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    text-align: left;
+}
+
+/* Additional styles for the hero content */
+#hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    border: 1px solid #efecec;
+    padding: 0.25rem 0.5rem; /* Reduce the padding to make the button smaller */
+    font-size: 14px; /* Reduce the font size for a smaller button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 0.5rem; /* Reduce the top margin for better alignment */
+    transition: all 0.2s;
+    width: auto; /* Remove any previously set width */
+    max-width: 105px; /* Set a maximum width for the button */
+    display: inline-block; /* Ensure the button only takes up the necessary width */
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+
+
+/* Style the collections section */
+#collections {
+    background-color: #fff;
+    padding: 50px 0;
+    width: 750px;
+
+    text-align: center;
+    color: #333;
+    background: linear-gradient(to right,lightblue,white);
+    background-attachment: scroll;
+}
+    
+
+.collection {
+    margin: 35px;
+    display: inline-block;
+    max-width: 900px;
+    text-align: left;
+    
+}
+
+.collection img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.collection h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #000080; /* Change the font color here */
+}
+
+.collection p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666; /* Change the font color here */
+}
+
+
+/* Style the contact section */
+
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    background: transparent;
+    background-attachment: scroll;
+    max-width: 900px;
+    color: white;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #white;
+}
+
+#contact address {
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+}
+
+#contact a {
+    color: #87CEFA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+}
+footer img{
+    width: 60px;
+}
+
+
+/* Add more specific styles as needed for buttons, links, and other elements */
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Style links */
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Style headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Style address in the contact section */
+address {
+    font-style: normal;
+}
+
+/* Style the footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+footer h5{
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #555;
+}
+
+/* Add any additional styles for specific elements as needed */
